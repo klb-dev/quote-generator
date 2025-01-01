@@ -1,5 +1,7 @@
+import backgroundImages from './images.js';
+
 // getting elements
-const quoteContainer = document.getElementById('quote-container');
+const body = document.querySelector('body');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
@@ -9,7 +11,10 @@ const newQuoteBtn = document.getElementById('new-quote');
 let data = [];
 
 // new quote button event listener
-newQuoteBtn.addEventListener('click', newQuote);
+newQuoteBtn.addEventListener('click', () => {
+    newQuote();
+    changeBackground();
+});
 
 // twitter button event listener
 twitterBtn.addEventListener('click', () => {
@@ -45,5 +50,12 @@ async function getQuote() {
     }
 }
 
+// Change background image
+function changeBackground() {
+    const image = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+    body.style.backgroundImage = `url(${image.src})`;
+}
+
 // On Load
 getQuote();
+changeBackground();
