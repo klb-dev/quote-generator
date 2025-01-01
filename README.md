@@ -6,16 +6,18 @@
 # TECH
 > - HTML 5
 > - CSS 3
-> - JavaScript (ES7)
+> - JavaScript
 > - Font Awesome
 > - Hero patterns
 > - Google Fonts
+> - SVG Backgrounds by Matt
+> <a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">Free SVG Backgrounds and Patterns by SVGBackgrounds.com</a>
 
 # DESIGN
-> The design was taken from another project. I am not a designer and have trouble making everything look pretty. I used Hero patterns website to get the background SVG. Google font 'Montserrat Alternates'.
+> The design was taken from another project. I am not a designer and have trouble making everything look pretty. I used Hero patterns website to get the background SVG. Google font 'Montserrat Alternates'. Decided to implement different svg backgrounds. I included 11 different kinds
 >
 # FEATURES
-> Only features is that it post to either X-Twitter or Bluesky. It also randomizes the API.
+> Only features is that it post to either X-Twitter or Bluesky. It also randomizes the API. Creates a random background each time the new quote button is pressed.
 # AUTHOR
 # ![BlueByrd logo image](favicon/favicon-32x32.png) **Blue Byrd Development**
 ## *Karen Byrd* 2024

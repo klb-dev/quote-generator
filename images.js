@@ -44,6 +44,10 @@ const backgroundImages = [
     {
         id: 11,
         src: './bgImages/sun-tornado.svg'
+    },
+    {
+        id: 12,
+        src: './bgImages/floating-cogs.svg'
     }
 ]
 
